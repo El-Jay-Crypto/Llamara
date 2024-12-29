@@ -1,0 +1,10 @@
+click
+colorama
+edge-tts
+groq
+langchain-community
+pyaudio
+pydub
+pygame
+python-dotenv
+speechrecognition

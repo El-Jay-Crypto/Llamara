@@ -108,26 +108,25 @@ Llamara/
 └── README.md                           # Project documentation
 ```
 ## Dependencies
-- **edge-tts:** For Microsoft Edge's text-to-speech functionality.
-- **python-dotenv:** For loading environment variables from the .env file.
-- **groq:** For using the Groq API.
-- **sounddevice:** For audio input/output.
-- **numpy:** For numerical operations, especially with audio data.
-- **pydub:** For working with audio file formats
-- **webrtcvad:** For voice activity detection.
-- **click:** For building command-line interfaces.
-- **langchain-community:** For the new langchain community library.
-- **colorama:** For colored output in the command line.
-
+- `click`: For building command-line interfaces.
+- `colorama`: For colored output in the command line.
+- `edge-tts`: For Microsoft Edge Text-to-Speech.
+- `groq`: For using the Groq API.
+- `langchain-community`: For the new langchain community library.
+- `pyaudio`: For audio input/output.
+- `pydub`: For working with audio file formats.
+- `pygame`: For audio playback.
+- `python-dotenv`: For loading environment variables from the `.env` file.
+- `speechrecognition`: For capturing audio input.
+- 
 ## Contributing
 If you would like to contribute, please follow these guidelines:
-
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
 - Make your changes and commit them.
 - Push your changes to your fork.
 - Submit a pull request.
-
+- 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
