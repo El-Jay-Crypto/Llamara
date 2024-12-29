@@ -16,6 +16,7 @@ def log_error(message):
 def log_chat(input_text, output_text, log_file_path):
     """Logs chat input and output to a separate file with timestamp."""
     try:
+        os.makedirs(os.path.dirname(log_file_path), exist_ok=True)  # Creates the directory if it does not exist.
         with open(log_file_path, "a") as f:
             f.write(f"USER: {input_text}\n")
             f.write(f"BOT: {output_text}\n")
