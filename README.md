@@ -1,4 +1,5 @@
 # Llamara - A Voice-Enabled Conversational Chatbot
+![image](https://github.com/El-Jay-Crypto/Llamara/blob/main/Llamara.png)
 
 Llamara is a voice-based chatbot application that leverages the power of Groq's low-latency Language Processing Units (LPUs) for speech-to-text (STT) and large language model (LLM) processing, and Microsoft Edge's Text-to-Speech (TTS) for audio output. It provides a command-line interface (CLI) for easy interaction and is designed to be highly configurable via a `.env` file.
 
@@ -20,7 +21,7 @@ Llamara is a voice-based chatbot application that leverages the power of Groq's 
 ### Prerequisites
 
 *   **Python 3.10 or higher**
-*   **A Groq API key**
+*   **A Groq API key** [Get yours here](https://console.groq.com/login)
 *   **A microphone connected to your computer**
 *   **An internet connection**
 
@@ -118,7 +119,7 @@ Llamara/
 - `pygame`: For audio playback.
 - `python-dotenv`: For loading environment variables from the `.env` file.
 - `speechrecognition`: For capturing audio input.
-- 
+
 ## Contributing
 If you would like to contribute, please follow these guidelines:
 - Fork the repository.
@@ -126,7 +127,7 @@ If you would like to contribute, please follow these guidelines:
 - Make your changes and commit them.
 - Push your changes to your fork.
 - Submit a pull request.
-- 
+
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
