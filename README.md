@@ -21,6 +21,7 @@ Llamara is a voice-based chatbot application that leverages the power of Groq's 
 ### Prerequisites
 
 *   **Python 3.10 or higher**
+*	**Portaudio19-dev & FFmpeg** (`sudo apt install portaudio19-dev ffmpeg`)
 *   **A Groq API key** [Get yours here](https://console.groq.com/login)
 *   **A microphone connected to your computer**
 *   **An internet connection**
